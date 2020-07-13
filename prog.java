@@ -1,10 +1,10 @@
-package def;
+package epam;
 
 class User {
-    private String name;
+    private Peolples people;
     private int id;
-    public User (String name, int id ) {
+    public User (Peolples people, int id ) {
         this .id =  id;
-        this.name = name;
+        this.people = people;
     }
 }
