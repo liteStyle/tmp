@@ -12,4 +12,8 @@ class Peoples {
         this.sex = sex;
         this.age = age;
     }
+    
+    public String getName() {
+        return name;
+    }
 }
